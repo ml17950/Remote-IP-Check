@@ -1,0 +1,19 @@
+[Project]
+Version=3
+Description=Remote-IP-Check
+Api=fb (FreeBASIC)
+[Make]
+Current=1
+1=Windows Console,fbc32 -s console
+Recompile=2
+Module=Module Build,fbc -c
+[TabOrder]
+TabOrder=1
+[File]
+1=Remote-IP-Check.bas
+2=Remote-IP-Check.rc
+[FileInfo]
+2=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[BreakPoint]
+1=

@@ -1,0 +1,6 @@
+* text eol=crlf
+
+*.fbp text
+*.bas text
+*.bi text
+*.ini text
