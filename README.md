@@ -106,15 +106,18 @@ Maintained by the tool and persisted across restarts:
 2026-10-14 12:05:10  system is online again
 ```
 
+## Requirements
+
+- Windows with an internet connection (HTTPS is handled by WinINet, no extra libraries or certificates needed).
+- Optional: `cmail.exe` (command line mail sender). It is not used by the tool itself, but the batch scripts can call it to send notification e-mails, e.g. on `changed`, `offline` and `online`. Place it next to the executable or somewhere in your `PATH`.
+
 ## Build
 
-Requires [FreeBASIC](https://www.freebasic.net/) on Windows:
+Building requires [FreeBASIC](https://www.freebasic.net/) on Windows:
 
 ```
 fbc -s console Remote-IP-Check.bas Remote-IP-Check.rc
 ```
-
-Uses WinINet for HTTPS, so no extra libraries or certificates need to be installed.
 
 ## License
 
