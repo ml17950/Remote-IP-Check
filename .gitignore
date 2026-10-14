@@ -1,2 +1,4 @@
 *.undo
 *.exe
+*.log
+*.ini
